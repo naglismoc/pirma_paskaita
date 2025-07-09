@@ -78,8 +78,10 @@ num1 = random.randint(0,4)
 num2 = random.randint(0,4)
 
 print(num1, num2)
+print(num1 + num2)
 
 salis = "Lietuva"
 miestas = "Kaunas"
 
 print("salies pavadinimas yra " + salis + " o miestas - " + miestas)
+print("salies pavadinimas yra ", salis, "o miestas - ", miestas)
